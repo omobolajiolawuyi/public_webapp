@@ -1,16 +1,9 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Apr 21 23:21:50 2023
-
-@author: 14237
-"""
-
 import numpy as np
 import pickle
 import streamlit as st
 
 #loading the saved model
-loaded_model = pickle.load(open('D:/ML/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
 #creating a function for prediction
 
@@ -77,7 +70,7 @@ if __name__== '__main__':
 
 
 #loading the saved model
-loaded_model = pickle.load(open('D:/ML/HeartDisease_trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('HeartDisease_trained_model.sav', 'rb'))
 
     
 #creating a function for prediction
